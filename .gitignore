@@ -215,3 +215,21 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/.bzr/README
+/.bzr/branch-format
+/.bzr/branch/branch.conf
+/.bzr/branch/format
+/.bzr/branch/last-revision
+/.bzr/branch/tags
+/.bzr/checkout/conflicts
+/.bzr/checkout/dirstate
+/.bzr/checkout/format
+/.bzr/checkout/views
+/.bzr/repository/format
+/.bzr/repository/indices/51e677b0451e342c8acd8ed0bdcb903a.cix
+/.bzr/repository/indices/51e677b0451e342c8acd8ed0bdcb903a.iix
+/.bzr/repository/indices/51e677b0451e342c8acd8ed0bdcb903a.rix
+/.bzr/repository/indices/51e677b0451e342c8acd8ed0bdcb903a.six
+/.bzr/repository/indices/51e677b0451e342c8acd8ed0bdcb903a.tix
+/.bzr/repository/pack-names
+/.bzr/repository/packs/51e677b0451e342c8acd8ed0bdcb903a.pack
