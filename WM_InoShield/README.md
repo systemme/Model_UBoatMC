@@ -2,7 +2,7 @@
 **U-boat Module Control** <br />
 **Arduino Shield for U-Boat Hardware Control**<br />
 <br />
-**Develop Version 0.33**<br />
+**Develop Version 0.34**<br />
 **Shield for Arduino Sketch V0.7x**<br />
 
 
@@ -23,6 +23,10 @@
 
 
 **Changelog**
+
+**0.34**
+* Patch: SCH1310_03xx Issue#9
+* Updte: Logo to System eMMe
 
 **0.33**
 * Added: Analog Input Rudders Position Trim
