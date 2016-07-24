@@ -25,6 +25,7 @@
 **Changelog**
 
 **0.34**
+* Patch: pwr1310_03xx Issue#1
 * Patch: SCH1310_03xx Issue#9
 * Updte: Logo to System eMMe
 
