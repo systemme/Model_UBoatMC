@@ -3,7 +3,7 @@ Arduino Sketch Mod_CMP
  
  Compass Module CMPS10 Read
  
-Copyright (C) 2015 Martinelli Michele 
+Copyright (C) 2016 Martinelli Michele 
  
  Mod_CMP is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
@@ -30,8 +30,12 @@ void Mod_CMP () {
   Val_CmpsPch = int(CmpMod.pitch());
   Val_CmpsRll = int(CmpMod.roll());
 
+  // Acceleration Each Axis
+  // Return the overall acceleration on the accelerometer, measured in units of g
+  // float acceleration()
+  Val_CmpsAccX = float acceleration_x();
+  Val_CmpsAccY = float acceleration_y();
+  Val_CmpsAccZ = float acceleration_z();
+
 }
-
-
-
 

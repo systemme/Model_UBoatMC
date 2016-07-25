@@ -4,11 +4,11 @@
  
  U-Boat Module Control: Arduino Remote Control with RaspberryPi Web Interface
  
- 01/05/2015
- Version 0.702
+ 25/07/2016
+ Version 0.703
  
  ------------------------------------------------------------------------------
-Copyright (C) 2015 Martinelli Michele 
+ Copyright (C) 2016 Martinelli Michele 
  
  UBoatM.C. is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
@@ -243,8 +243,11 @@ float GPS_Speed;	      // GPS Speed
 
 // Compass Module Variable (CMPS10)
 int Val_CmpsHng;			// Compass Heading
-int Val_CmpsPch;                        // Compass Pitch
-int Val_CmpsRll;                        // Compass Roll
+int Val_CmpsPch;            // Compass Pitch
+int Val_CmpsRll;            // Compass Roll
+float Val_CmpsAccX          // Compass Acceleration X Axis
+float Val_CmpsAccY          // Compass Acceleration Y Axis
+float Val_CmpsAccZ          // Compass Acceleration Z Axis
 int Quadrant;				// Compass Quadrant
 String Cardinals;			// Compass Cardinals
 

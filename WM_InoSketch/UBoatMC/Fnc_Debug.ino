@@ -3,7 +3,7 @@ Arduino Sketch Fnc_Debug
  
  Serial Print Debug
  
-Copyright (C) 2015 Martinelli Michele 
+Copyright (C) 2016 Martinelli Michele 
  
  Fnc_Debug is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
@@ -112,6 +112,7 @@ void Fnc_Debug()
   // Compass Data
   Serial.println("Compass Data:");
 
+  // Bearing Degrees
   Serial.print("Heading: ");
   Serial.print(Ins_CmpsHng);
   Serial.print("Dg. ");
@@ -121,7 +122,18 @@ void Fnc_Debug()
   Serial.print(" Roll: ");
   Serial.print(Val_CmpsRll);
   Serial.print("Dg. ");
-  
+  // Acceleration Axis
+  Serial.println(" ");
+  Serial.print("X Axis: ");
+  Serial.print(Ins_CmpsHng);
+  Serial.print("g ");
+  Serial.print(" Y Axis: ");
+  Serial.print(Val_CmpsPch);
+  Serial.print("g ");  
+  Serial.print(" Z Axis: ");
+  Serial.print(Val_CmpsRll);
+  Serial.print("g ");
+
   Serial.print(" Cardinals: ");
   Serial.print(Cardinals);
   Serial.print(" Quadrant: ");

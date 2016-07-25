@@ -3,7 +3,7 @@ Arduino Sketch Web_Com
  
  Web Comunication to RaspberryPi
  
- Copyright (C) 2015 Martinelli Michele 
+ Copyright (C) 2016 Martinelli Michele 
  
  Web_Com is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the

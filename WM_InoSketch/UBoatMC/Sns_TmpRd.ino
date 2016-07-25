@@ -6,7 +6,7 @@ Arduino Sketch Sns_TmpRd
  Ext.Temp. ROM = 28 C8 88 49 3 0 0 42
  H2O.Temp. ROM = 28 3C A9 60 3 0 0 3A
  
-Copyright (C) 2015 Martinelli Michele 
+Copyright (C) 2016 Martinelli Michele 
 
  Fnc_TmpRd is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the

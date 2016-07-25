@@ -3,7 +3,7 @@ Arduino Sketch Mod_GPS
  
  GPS Module EM406A Read
  
-Copyright (C) 2015 Martinelli Michele 
+Copyright (C) 2016 Martinelli Michele 
  
  Mod_GPS is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
