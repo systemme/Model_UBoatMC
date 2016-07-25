@@ -125,14 +125,19 @@ void Fnc_Debug()
   // Acceleration Axis
   Serial.println(" ");
   Serial.print("X Axis: ");
-  Serial.print(Ins_CmpsHng);
+  Serial.print(Val_CmpsAccX);
   Serial.print("g ");
   Serial.print(" Y Axis: ");
-  Serial.print(Val_CmpsPch);
+  Serial.print(Val_CmpsAccY);
   Serial.print("g ");  
   Serial.print(" Z Axis: ");
-  Serial.print(Val_CmpsRll);
+  Serial.print(Val_CmpsAccZ);
   Serial.print("g ");
+  Serial.println();
+  Serial.print("Total: ");
+  Serial.print(Val_CmpsAccT);
+  Serial.print("g ");
+  Serial.println();
 
   Serial.print(" Cardinals: ");
   Serial.print(Cardinals);

@@ -245,11 +245,12 @@ float GPS_Speed;	      // GPS Speed
 int Val_CmpsHng;			// Compass Heading
 int Val_CmpsPch;            // Compass Pitch
 int Val_CmpsRll;            // Compass Roll
-float Val_CmpsAccX          // Compass Acceleration X Axis
-float Val_CmpsAccY          // Compass Acceleration Y Axis
-float Val_CmpsAccZ          // Compass Acceleration Z Axis
-int Quadrant;				// Compass Quadrant
-String Cardinals;			// Compass Cardinals
+float Val_CmpsAccT;
+float Val_CmpsAccX;         // Compass Acceleration X Axis
+float Val_CmpsAccY;         // Compass Acceleration Y Axis
+float Val_CmpsAccZ;         // Compass Acceleration Z Axis
+int Quadrant;		    // Compass Quadrant
+String Cardinals;	    // Compass Cardinals
 
 //Temperature Chip I/O
 OneWire DSSns(TmpSns_Pin);  // Set Library

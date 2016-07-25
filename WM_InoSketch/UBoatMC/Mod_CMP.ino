@@ -32,10 +32,10 @@ void Mod_CMP () {
 
   // Acceleration Each Axis
   // Return the overall acceleration on the accelerometer, measured in units of g
-  // float acceleration()
-  Val_CmpsAccX = float acceleration_x();
-  Val_CmpsAccY = float acceleration_y();
-  Val_CmpsAccZ = float acceleration_z();
+  Val_CmpsAccT = float(CmpMod.acceleration());
+  Val_CmpsAccX = float(CmpMod.acceleration_x());
+  Val_CmpsAccY = float(CmpMod.acceleration_y());
+  Val_CmpsAccZ = float(CmpMod.acceleration_z());
 
 }
 
