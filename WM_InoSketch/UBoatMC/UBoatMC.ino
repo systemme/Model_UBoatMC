@@ -77,11 +77,11 @@ EthernetServer server(80);                 	// Server Port
 TinyGPS GPS;
 static bool GPS_Feed();
  
- // Cmps Functions (CMPS10)
- CMPS10 CmpMod ;
+// Cmps Functions (CMPS10)
+CMPS10 CmpMod ;
  
-// I/O for Develop Shields 0.3x
-
+/* I/O for Develop Shields 0.3x */
+//
 // PWM Output
 #define MEnAhd_Pin 2    // Main Engine Direction Ahead
 #define MEnAst_Pin 3    // Main Engine Direction Astern
@@ -136,7 +136,9 @@ static bool GPS_Feed();
 
 
 /* UBoatM.C. Settings */
-String Ino_Vers = "0.700";         // Arduino Sketch Version
+//
+// General Settings
+String Ino_Vers = "0.703";         // Arduino Sketch Version
 String RPi_IPAd = "192.168.0.110"; // RaspberryPi IP Address 
 String RPi_Path = "/WM_RPinoWI";   // RaspberryPi WI Path 
 int LiPo_BtPw = 2200;              // LiPo Battery Power (A/h)
@@ -154,8 +156,8 @@ int Ang_Min = 5;         // Rudders Min Angle (Parameter Mode)
 int Ang_CpP = 5;         // Rudders Compesation Value (Port Direction)
 int Ang_CpS = 0;         // Rudders Compesation Value (Starboard Direction)
 // Main Engine Settings
-int MEnSpd_01 = 10;	 // Speed 01 - Astern (Default Mode)
-int MEnSpd_02 = 30;	 // Speed 02 - Ahead   (Default Mode)
+int MEnSpd_01 = 10;	     // Speed 01 - Astern (Default Mode)
+int MEnSpd_02 = 30;	     // Speed 02 - Ahead   (Default Mode)
 int MEnSpd_Max = 50; 	 // Speed Max (Parameter Mode)
 int MEnSpd_Min = 10;     // Speed Min  (Parameter Mode)
 // Ballast Tank Settings
@@ -169,7 +171,7 @@ float  MAX_Depth = 51.00; // MAX Depth
 
 
 /* Arduino Variable */
-
+//
 // General
 unsigned long TimeSec;        // Time Run Program
 unsigned long Time00 = 1;     // Time Clock 1sec
@@ -202,24 +204,24 @@ int Rst_PrsVal ;              // Reset Pressure Value
 // Main Engine
 bool MEnAhd;		// Main Engine Ahead
 bool MEnAst;		// Main Engine Astern
-int MEnSpd;		// Main Engine Motor Speed
+int MEnSpd;		    // Main Engine Motor Speed
 
 // Ballast Tank
 bool BlTDvn;		// Ballast Tank Motor Diving
 bool BlTEmr;		// Ballast Tank Motor Emersion
-int BlTSpd;		// Ballast Tank Motor Speed
+int BlTSpd;		    // Ballast Tank Motor Speed
 int D_Initial;		// Depth Value Initial
 int D_Final;		// Depth Value Final
-int D_Stop;		// Depth Value Stop
+int D_Stop;		    // Depth Value Stop
 
 // Rudders
-Servo Rddr13_Servo;	// Set Library
-Servo Rddr24_Servo;	// Set Library
+Servo Rddr13_Servo;	    // Set Library
+Servo Rddr24_Servo;	    // Set Library
 int Rddr13_Pos = 90;	// Rudder 01 Position
 int Rddr24_Pos = 90;	// Rudder 02 Position
-int Q_Initial;		// Quadrant Value Initial
-int Q_Final;		// Quadrant Value Final
-int Q_Stop;		// Quadrant Value Stop
+int Q_Initial;		    // Quadrant Value Initial
+int Q_Final;		    // Quadrant Value Final
+int Q_Stop;		        // Quadrant Value Stop
 
 // GPS Data Variable
 int GPS_DateY;		      // GPS Date Year
@@ -242,13 +244,13 @@ float GPS_LongFloat;	      // GPS Longitude Float
 float GPS_Speed;	      // GPS Speed
 
 // Compass Module Variable (CMPS10)
-int Val_CmpsHng;			// Compass Heading
-int Val_CmpsPch;            // Compass Pitch
-int Val_CmpsRll;            // Compass Roll
-float Val_CmpsAccT;
-float Val_CmpsAccX;         // Compass Acceleration X Axis
-float Val_CmpsAccY;         // Compass Acceleration Y Axis
-float Val_CmpsAccZ;         // Compass Acceleration Z Axis
+int Val_CmpsHng;		// Compass Heading
+int Val_CmpsPch;        // Compass Pitch
+int Val_CmpsRll;        // Compass Roll
+float Val_CmpsAccO;		// Compass Overall Acceleration
+float Val_CmpsAccX;     // Compass Acceleration X Axis
+float Val_CmpsAccY;     // Compass Acceleration Y Axis
+float Val_CmpsAccZ;     // Compass Acceleration Z Axis
 int Quadrant;		    // Compass Quadrant
 String Cardinals;	    // Compass Cardinals
 
@@ -351,8 +353,7 @@ bool IOAux4 = false;
  22   C2
  23   C3
  24   C4 
- */
-
+*/
 
 // Commands Variable
 int LastCmd;
@@ -376,7 +377,7 @@ int PrCmd_Rd0 [32];     // Command Parameter
  09
  10  "Web TimeOut"
  11  "Wait Hardware"
- */
+*/
 
 // System Allarm Variable
 bool ChkAlm = false;

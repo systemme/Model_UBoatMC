@@ -1,12 +1,13 @@
 /*
-Arduino Sketch Fnc_AuxCmd
+
+ Arduino Sketch Fnc_AuxCmd
  
  Auxiliary Command
  
  ------------------------------------------------------------------------------
  Copyright (C) 2016 Martinelli Michele 
  
- This is free software: you can redistribute it and/or modify it
+ UBoatM.C. is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
  Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
@@ -19,6 +20,8 @@ Arduino Sketch Fnc_AuxCmd
 
 void Fnc_AuxCmd () {
 
+  // Variable
+
   // Settings
   int BzFrq_00 = 50;
   int BzDrt_00 = 200;
@@ -30,8 +33,6 @@ void Fnc_AuxCmd () {
   int HrDrt_01 = 500;
   int HrDrt_02 = 1000;
   int HrDrt_03 = 1500;
-  // Variable
-
 
   // Flashing Cycle Time
   if (Clock_10){

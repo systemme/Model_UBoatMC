@@ -1,17 +1,20 @@
 /*
-Arduino Sketch Fnc_Debug
+
+ Arduino Sketch Fnc_Debug
  
  Serial Print Debug
  
-Copyright (C) 2016 Martinelli Michele 
+ ------------------------------------------------------------------------------
+ Copyright (C) 2016 Martinelli Michele 
  
- Fnc_Debug is free software: you can redistribute it and/or modify it
+ UBoatM.C. is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
  Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
  
  You should have received a copy of the GNU General Public License along
- with this program. If not, see <http://www.gnu.org/licenses/>.
+ with this program.  If not, see <http://www.gnu.org/licenses/>.
+ ------------------------------------------------------------------------------
  
  */
 
@@ -122,7 +125,7 @@ void Fnc_Debug()
   Serial.print(" Roll: ");
   Serial.print(Val_CmpsRll);
   Serial.print("Dg. ");
-  // Acceleration Axis
+  // Acceleration Axis g
   Serial.println(" ");
   Serial.print("X Axis: ");
   Serial.print(Val_CmpsAccX);
@@ -134,8 +137,8 @@ void Fnc_Debug()
   Serial.print(Val_CmpsAccZ);
   Serial.print("g ");
   Serial.println();
-  Serial.print("Total: ");
-  Serial.print(Val_CmpsAccT);
+  Serial.print("Overall: ");
+  Serial.print(Val_CmpsAccO);
   Serial.print("g ");
   Serial.println();
 

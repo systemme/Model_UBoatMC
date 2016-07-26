@@ -1,12 +1,13 @@
 /*
-Arduino Sketch Cmd_MainEg
+ 
+ Arduino Sketch Cmd_MainEg
  
  Main Engine Command
  
  ------------------------------------------------------------------------------
  Copyright (C) 2016 Martinelli Michele 
  
- This is free software: you can redistribute it and/or modify it
+ UBoatM.C. is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
  Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
