@@ -24,6 +24,7 @@
 **Changelog**
 
 **0.34**
+* Updte: SCH1310_03xx J110/J130
 * Patch: PWR1310_03xx Issue#5 (Add. Fuse F011)
 * Patch: PWR1310_03xx Issue#3 (Add. Diode D001/5)
 * Patch: SCH1310_03xx Issue#9 (Change uA7805)
