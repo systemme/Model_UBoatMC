@@ -24,8 +24,9 @@
 **Changelog**
 
 **0.34**
-* Patch: pwr1310_03xx Issue#1
-* Patch: SCH1310_03xx Issue#9
+* Patch: PWR1310_03xx Issue#5 (Add. Fuse F011)
+* Patch: PWR1310_03xx Issue#3 (Add. Diode D001/5)
+* Patch: SCH1310_03xx Issue#9 (Change uA7805)
 * Updte: Logo to System eMMe
 
 **0.33**
